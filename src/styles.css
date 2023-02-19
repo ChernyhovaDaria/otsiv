@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    display:flex;
+    justify-content: space-between;
+    justify-content: center;
+    margin: 1%;
+}
+
+#root {
+    background-size: 100%;
+    height: 1170px;
+    min-width: 1366px;
+    margin: 0;
+}
+
+#workspace{
+    width: 620px;
+    height: 700px;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+
+#reviews{
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#review{    
+    flex-direction: column;
+    align-items: center;
+}
+
+.photoUser{
+    width: 30%;
+    height: 38%;
+}
